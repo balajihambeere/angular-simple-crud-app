@@ -26,5 +26,5 @@ before_install:
 install:
   - npm install
 
-script:
-  - npm run ci:travis
+# script:
+#   - npm run ci:travis
