@@ -1,0 +1,21 @@
+HttpClient - Introduction
+
+Most front-end applications communicate with backend services over the HTTP protocol. 
+Modern browsers support two different APIs for making HTTP requests: 
+1) The XMLHttpRequest interface 
+2) The fetch() API.
+
+HttpClient in @angular/common/http offers HTTP API for angular applications.
+
+Benefits of HttpClient
+1) Includes testability features
+2) Typed requests and response objects 
+3) Request and Response Interception
+4) Observable APIs
+5) streamlined error handling
+
+
+Using HttpClient
+Before you use the HttpClient, you need to import the Angular HttpClientModule from '@angular/common/http'
+HttpClientModule: An NgModule that provides the HttpClient and associated services.
+Note : import HttpClientModule after BrowserModule.
