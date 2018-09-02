@@ -10,9 +10,9 @@ addons:
   chrome: stable
 
 node_js:
-  - "6"
-  - "7"
+  - "9"
   - "8"
+  - "7"
 
 matrix:
   fast_finish: true
